@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="content-type" content="text/html" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Landing Page</title>
+    <meta name="author" content="Lily Production">
+    <meta name="description"
+      content="►Landing Page & Web Development ►JavaScript Tricks ►Content Creation in eng/rus" />
+    <meta name="robots" content="index, follow">
+    <!--ogp -->
+    <meta property="og:title" content="Landing Page" />
+    <meta name="language" content="english">
+    <meta name="rating" content="save for kids">
+    <meta name="HandheldFriendly" content="true">
+    <meta property="og:description"
+      content="►Landing Page & Web Development ►JavaScript Tricks ►Content Creation in eng/rus" />
+    <meta property="og:type" content="website" />
+    <meta property=" og:url" content="https://lipro.netlify.app/" />
+    <meta property="og:locale" content="en_EN" />
+    <meta property=" og:site_name" content="LiPro" />
+    <meta property="og:image" content="https://lipro.netlify.app/images/apple-touch-icon.png" />
+    <meta property="og:image:secure_url" content="https://lipro.netlify.app/images/apple-touch-icon.png" />
+    <!-- end of ogp -->
+    <!-- favicon -->
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="images/lipro_logo_small.svg">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="styles.css">
+    <style>
+      *,
+      html,
+      body {
+        cursor: url('images/arrowfinal@2x.png'), auto;
+      }
+    </style>
+  </head>
+
+  <body class="flashIn">
+    <!-- header -->
+    <header class="header" id="home">
+      <nav class="nav" id="top">
+        <div class="nav_to_open">
+          <div class="nav_container">
+            <ul>
+              <a href="#top" class="a_link">
+                <li class="odd">home</li>
+              </a>
+              <a href="#collection" title="see all the products" class="a_link">
+                <li class="odd">products</li>
+              </a>
+              <a href="#contact" class="a_link">
+                <li class="odd others">contact</li>
+              </a>
+              <a href="#about" class="a_link" title="get to know about us">
+                <li class="odd others">about</li>
+              </a>
+            </ul>
+          </div>
+          <a href="index.html" class="a_logo_header"><img src="images/logo_transparent.png"
+              title="Return to main page" /></a>
+          <span class="bars_icon"><i class="fas fa-bars"></i></span>
+        </div>
+      </nav>
+    </header>
+    <!-- main -->
+    <main class="main">
+      <!-- hero -->
+      <div class="title off_screen">
+        <h1>Mangata Gallo Jewelry</h1>
+      </div>
+      <section class="section_hero">
+        <div class="products_container">
+          <!-- single product -->
+          <article class="single_product one">
+            <ul class="item product1">
+              <li class="item_title">
+                <h4>high-quality</h4>
+              </li>
+              <li class="product_description">
+                <p>For special occasions</p>
+              </li>
+              <li><a href="#collection" class="a_link btn">know more</a></li>
+            </ul>
+          </article>
+          <!-- ----------------->
+          <!-- single product -->
+          <article class="single_product two">
+            <ul class="item product1">
+              <li class="item_title">
+                <h4>classic look</h4>
+              </li>
+              <li class="product_description">
+                <p>For special occasions</p>
+              </li>
+              <li><a href="#collection" class="a_link btn">know more</a></li>
+            </ul>
+          </article>
+          <!-- ----------------->
+          <!-- single product -->
+          <article class="single_product three">
+            <ul class="item product1">
+              <li class="item_title">
+                <h4>weddings</h4>
+              </li>
+              <li class="product_description">
+                <p>Special jewelry designs</p>
+              </li>
+              <li><a href="#collection" class="a_link btn">know more</a></li>
+            </ul>
+          </article>
+          <!-- ----------------->
+          <!-- single product -->
+          <article class="single_product four">
+            <ul class="item product1">
+              <li class="item_title">
+                <h4>jewelry design</h4>
+              </li>
+              <li class="product_description">
+                <p>For your sweet desires</p>
+              </li>
+              <li><a href="#collection" class="a_link btn">know more</a></li>
+            </ul>
+          </article>
+          <!-- ----------------->
+          <!-- single product -->
+          <article class="single_product five">
+            <ul class="item product1">
+              <li class="item_title">
+                <h4>Prestige style</h4>
+              </li>
+              <li class="product_description">
+                <p>For your best days</p>
+              </li>
+              <li><a href="#collection" class="a_link btn">know more</a></li>
+            </ul>
+          </article>
+          <!-- ----------------->
+          <div class="btn_container">
+            <button class="btn down" id="defaultClick">↓</button>
+            <button class="btn up">↑</button>
+          </div>
+        </div>
+      </section>
+      <!-- collection section -->
+      <section class="section_center" id="collection">
+        <div class="title">
+          <h2 class="h2_part">New <span>collection</span></h2>
+        </div>
+        <article class="cards_container">
+          <!-- single card -->
+          <figure class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="images/jewelry-6.jpg" alt="jewelry-6" class="imgMain" />
+                <figcaption>item one</figcaption>
+                <p class="p_text">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Delectus, hic dicta itaque quia ullam ex dolores obcaecati
+                  architecto in aspernatur placeat cumque illum vitae ipsa eligendi
+                  ut excepturi repellendus doloremque sed aut minima odit? Culpa!
+                </p>
+                <p><em>price: 135$</em></p>
+              </div>
+              <div class="flip-card-back1">
+                <img src="images/jewelry-6.jpg" alt="jewelry-6" class="imgMain big" />
+              </div>
+            </div>
+          </figure>
+          <!-- single card -->
+          <figure class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="images/jewelry-8.jpg" alt="jewelry-6" class="imgMain" />
+                <figcaption>item two</figcaption>
+                <p class="p_text">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Delectus, hic dicta itaque quia ullam ex dolores obcaecati
+                  architecto in aspernatur placeat cumque illum vitae ipsa eligendi
+                  ut excepturi repellendus doloremque sed aut minima odit? Culpa!
+                </p>
+                <p><em>price: 235$</em></p>
+              </div>
+              <div class="flip-card-back1">
+                <img src="images/jewelry-8.jpg" alt="jewelry-6" class="imgMain big" />
+              </div>
+            </div>
+          </figure>
+          <!-- single card -->
+          <figure class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="images/jewelry-9.jpg" alt="jewelry-6" class="imgMain" />
+                <figcaption>item three</figcaption>
+                <p class="p_text">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Delectus, hic dicta itaque quia ullam ex dolores obcaecati
+                  architecto in aspernatur placeat cumque illum vitae ipsa eligendi
+                  ut excepturi repellendus doloremque sed aut minima odit? Culpa!
+                </p>
+                <p><em>price: 455$</em></p>
+              </div>
+              <div class="flip-card-back1">
+                <img src="images/jewelry-9.jpg" alt="jewelry-6" class="imgMain big" />
+              </div>
+            </div>
+          </figure>
+          <!-- single card -->
+          <figure class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="images/jewelry-11.jpg" alt="jewelry-6" class="imgMain" />
+                <figcaption>item four</figcaption>
+                <p class="p_text">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Delectus, hic dicta itaque quia ullam ex dolores obcaecati
+                  architecto in aspernatur placeat cumque illum vitae ipsa eligendi
+                  ut excepturi repellendus doloremque sed aut minima odit? Culpa!
+                </p>
+                <p><em>price: 185$</em></p>
+              </div>
+              <div class="flip-card-back1">
+                <img src="images/jewelry-11.jpg" alt="jewelry-6" class="imgMain big" />
+              </div>
+            </div>
+          </figure>
+          <!-- single card -->
+          <figure class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="images/jewelry-12.jpg" alt="jewelry-6" class="imgMain" />
+                <figcaption>item five</figcaption>
+                <p class="p_text">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Delectus, hic dicta itaque quia ullam ex dolores obcaecati
+                  architecto in aspernatur placeat cumque illum vitae ipsa eligendi
+                  ut excepturi repellendus doloremque sed aut minima odit? Culpa!
+                </p>
+                <p><em>price: 345$</em></p>
+              </div>
+              <div class="flip-card-back1">
+                <img src="images/jewelry-12.jpg" alt="jewelry-6" class="imgMain big" />
+              </div>
+            </div>
+          </figure>
+          <!-- single card -->
+          <figure class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="images/jewelry-2.jpg" alt="jewelry-6" class="imgMain" />
+                <figcaption>item six</figcaption>
+                <p class="p_text">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Delectus, hic dicta itaque quia ullam ex dolores obcaecati
+                  architecto in aspernatur placeat cumque illum vitae ipsa eligendi
+                  ut excepturi repellendus doloremque sed aut minima odit? Culpa!
+                </p>
+                <p><em>price: 530$</em></p>
+              </div>
+              <div class="flip-card-back1">
+                <img src="images/jewelry-2.jpg" alt="jewelry-6" class="imgMain big" />
+              </div>
+            </div>
+          </figure>
+        </article>
+      </section>
+      <hr class="hr">
+      <!-- ----------------- -->
+      <!-- about section -->
+      <section class="section_center" id="about">
+        <div class="container_about">
+          <div class="content_text">
+            <h2 class="h2">about</h2>
+            <p class="p_text about">Mangata and Gallo is a jewelry store that specializes in special
+              occasions like
+              engagements, weddings and
+              anniversaries.
+              The jewelry company primarily operates online and has a small storefront in Austin, Texas with an atelier
+              attached for
+              browsing. Mangata & Gallo's selection of jewelry is known for its high-quality and classic look. The
+              owner, an Austin
+              local, is well known for her jewelry designs.</p>
+          </div>
+        </div>
+      </section>
+      <hr class="hr">
+      <!-- contact section -->
+      <section class="section_center" id="contact">
+        <div class="container_contact">
+          <div class="card_contact">
+            <img src="images/logo_small.png" alt="John" style="width:100%">
+            <h3 title="Contact us" id="email">Mariana</h3>
+            <p class="title">The owner and the lead designer of Mangata and Gallo.</p>
+            <p></p>
+            <p><button type="button" disabled class="btn">Contact us<i class="fas fa-envelope"></i></button></p>
+          </div>
+        </div>
+        </div>
+      </section>
+
+    </main>
+    <!--end of main -->
+  
+    <!-- footer -->
+    <footer class="footer_layout">
+      <div class="footer_flex scroll_position">
+        <address>
+          <div class="img_container_footer">
+            <a href="index.html" title="Back to Main Page"><img src="images/lipro_logo_small.svg" alt="logo lipro "
+                class="img_logo_halal-footer" /></a>
+          </div>
+          <a class="footer_address" href="mailto:lipro.tk@gmail.com" title="email me"><i
+              class="fas fa-envelope-open"></i>Email me</a><br />
+          <a class="footer_address" href="https://t.me/lipro8" title="I am in touch!" target="_blank"><i
+              class="fab fa-telegram-plane"></i>Telegram me</a>
+        </address>
+        <div class="link_tabs" id="gallery">
+          <p>
+            <a href="#gallery">Gallery</a>
+          </p>
+          <p id="news">
+            <a href="#news">Site News</a>
+          </p>
+        </div>
+        <div class="link_social_media">
+          <p id="vkontakte">
+            <a href="#vkontakte" title="Vkontakte"><i class="fab fa-vk"></i></a>
+          </p>
+          <p id="pinterest">
+            <a href="#pinterest" title="pinterest"><i
+                class="fab fa-pinterest-p"></i></a>
+          </p>
+          <p id="odnoklassniki">
+            <a href="#odnoklassniki" title="odnoklassniki" ><i
+                class="fab fa-odnoklassniki"></i></a>
+          </p>
+        </div>
+      </div>
+      <p class="copyright">
+        copyright&copy :LiPro
+        <span id="date"> 2020 </span><a href="privacy_policy.html">.all rights reserved</a>
+      </p>
+    </footer>
+    <!-- end of footer -->
+    <!-- back to top button -->
+    <a href="#home" class="scroll-link top-link"><i class="fas fa-arrow-up"></i></a>
+    <a href="https://api.whatsapp.com/send?phone=79107730224&text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A3%20%D0%BC%D0%B5%D0%BD%D1%8F%20%D0%B5%D1%81%D1%82%D1%8C%20%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81."
+      class="whatsapp-link" target="_blank" title="Whatsapp me!"><i class="fas fa-phone fa-flip-horizontal"></i></a>
+    <!-- end of back to top button -->
+    <!-- JS -->
+    <script src="main.js"></script>
+  </body>
+
+</html>
